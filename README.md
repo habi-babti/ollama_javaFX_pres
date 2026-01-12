@@ -2,7 +2,7 @@
 
 A modern, feature-rich JavaFX desktop application for interacting with Ollama AI models. This application provides a clean, intuitive interface for AI conversations with advanced theme management, user authentication, and comprehensive settings.
 
-## 🚀 Features
+##  Features
 
 ### Core Functionality
 - **AI Chat Interface**: Interactive chat with Ollama AI models
@@ -31,13 +31,13 @@ A modern, feature-rich JavaFX desktop application for interacting with Ollama AI
 - **Responsive UI**: Adaptive layout with proper window management
 - **Error Handling**: Comprehensive error messages and recovery
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Java 21+**: Required for JavaFX and modern Java features
 - **Maven 3.6+**: For building and dependency management
 - **Ollama Server**: Running Ollama instance (local or remote)
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -78,26 +78,8 @@ mvn javafx:run
 3. Configure Ollama URL in Settings if different from default
 4. Test connection and select a model
 
-## 🎨 Themes
 
-The application includes three built-in themes:
-
-### Light Theme
-- Clean, bright interface
-- Optimal for daytime use
-- High contrast for readability
-
-### Dark Theme
-- Modern dark interface
-- Reduced eye strain
-- Perfect for low-light environments
-
-### Blue Theme
-- Professional blue color scheme
-- Balanced contrast
-- Corporate-friendly appearance
-
-## 📱 User Interface
+##  User Interface
 
 ### Login Screen
 - Secure authentication
@@ -133,7 +115,7 @@ The application includes three built-in themes:
 | `Ctrl + R` | Refresh models |
 | `Escape` | Cancel generation |
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Project Structure
 ```
@@ -171,7 +153,7 @@ src/main/resources/com/ollama/olama/
 - **AppSettings**: Application configuration
 - **OllamaModel**: AI model metadata
 
-## 🧪 Testing
+##  Testing
 
 The project includes comprehensive tests:
 
@@ -190,7 +172,7 @@ The project includes comprehensive tests:
 - Integration tests for services
 - UI component testing
 
-## 🔒 Security
+##  Security
 
 ### Authentication
 - Secure password handling
@@ -203,7 +185,7 @@ The project includes comprehensive tests:
 - No sensitive data in logs
 - Secure communication with Ollama
 
-## 🚀 Deployment
+##  Deployment
 
 ### Creating Executable JAR
 ```bash
@@ -216,7 +198,7 @@ For faster startup and smaller footprint:
 ./mvnw clean package -Pnative
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -230,24 +212,24 @@ For faster startup and smaller footprint:
 - Update documentation
 - Ensure all tests pass
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Ollama](https://ollama.ai/) - Local AI model runtime
 - [JavaFX](https://openjfx.io/) - Modern Java UI toolkit
 - [Maven](https://maven.apache.org/) - Build and dependency management
 
-## 📞 Support
+##  Support
 
 For support and questions:
 - Create an issue on GitHub
 - Check existing documentation
 - Review the troubleshooting section
 
-## 🔄 Changelog
+##  Changelog
 
 ### Version 1.0.0
 - Initial release

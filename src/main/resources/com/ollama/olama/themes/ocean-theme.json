@@ -1,0 +1,12 @@
+{
+  "name": "Ocean Blue",
+  "primaryColor": "#0288D1",
+  "secondaryColor": "#00BCD4",
+  "backgroundColor": "#0D1B2A",
+  "foregroundColor": "#E0E1DD",
+  "accentColor": "#00E5FF",
+  "textColor": "#E0E1DD",
+  "buttonColor": "#1B263B",
+  "borderColor": "#415A77",
+  "hoverColor": "#03A9F4"
+}

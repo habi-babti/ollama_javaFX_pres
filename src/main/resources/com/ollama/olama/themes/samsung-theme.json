@@ -1,0 +1,12 @@
+{
+  "name": "Samsung",
+  "primaryColor": "#1428A0",
+  "secondaryColor": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "foregroundColor": "#F7F7F7",
+  "accentColor": "#2196F3",
+  "textColor": "#000000",
+  "buttonColor": "#1428A0",
+  "borderColor": "#E0E0E0",
+  "hoverColor": "#0F1E7A"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Apple",
+  "primaryColor": "#000000",
+  "secondaryColor": "#86868B",
+  "backgroundColor": "#F5F5F7",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#0066CC",
+  "textColor": "#1D1D1F",
+  "buttonColor": "#0071E3",
+  "borderColor": "#D2D2D7",
+  "hoverColor": "#0077ED"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Material Dark",
+  "primaryColor": "#2196F3",
+  "secondaryColor": "#FFC107",
+  "backgroundColor": "#121212",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#FF4081",
+  "textColor": "#E0E0E0",
+  "buttonColor": "#424242",
+  "borderColor": "#333333",
+  "hoverColor": "#1E88E5"
+}

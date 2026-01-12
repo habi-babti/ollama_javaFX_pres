@@ -1,0 +1,12 @@
+{
+  "name": "Night",
+  "primaryColor": "#1A237E",
+  "secondaryColor": "#304FFE",
+  "backgroundColor": "#000000",
+  "foregroundColor": "#121212",
+  "accentColor": "#FFD600",
+  "textColor": "#B0BEC5",
+  "buttonColor": "#283593",
+  "borderColor": "#1C1C1C",
+  "hoverColor": "#3949AB"
+}

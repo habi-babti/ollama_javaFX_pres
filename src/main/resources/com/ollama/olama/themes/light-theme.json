@@ -1,0 +1,12 @@
+{
+  "name": "Material Light",
+  "primaryColor": "#2196F3",
+  "secondaryColor": "#FFC107",
+  "backgroundColor": "#FAFAFA",
+  "foregroundColor": "#212121",
+  "accentColor": "#FF4081",
+  "textColor": "#212121",
+  "buttonColor": "#E0E0E0",
+  "borderColor": "#BDBDBD",
+  "hoverColor": "#1976D2"
+}

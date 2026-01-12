@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="com.ollama.olama.controller.ChatController"
+            prefHeight="700.0" prefWidth="900.0">
+   
+   <!-- Top Toolbar -->
+   <top>
+      <VBox>
+         <!-- User Info Bar -->
+         <HBox alignment="CENTER_LEFT" spacing="10.0" styleClass="user-info-bar">
+            <padding>
+               <Insets bottom="5.0" left="12.0" right="12.0" top="5.0" />
+            </padding>
+            
+            <Label fx:id="userInfoLabel" text="Not logged in" styleClass="user-info" />
+            
+            <!-- Spacer -->
+            <Region HBox.hgrow="ALWAYS" />
+            
+            <!-- Admin Button (visible only for admins) -->
+            <Button fx:id="userManagementButton" text="👥 Manage Users" onAction="#onUserManagement" 
+                    styleClass="admin-button" visible="false" managed="false" />
+            
+            <!-- Logout Button -->
+            <Button fx:id="logoutButton" text="🚪 Logout" onAction="#onLogout" styleClass="logout-button" />
+         </HBox>
+         
+         <!-- Main Toolbar -->
+         <ToolBar styleClass="toolbar">
+            <items>
+               <!-- Model Selection -->
+               <Label text="Model:" />
+               <ComboBox fx:id="modelSelector" prefWidth="200.0" promptText="Select a model..." />
+               
+               <!-- Refresh Button -->
+               <Button fx:id="refreshButton" text="↻ Refresh" onAction="#onRefreshModels" />
+               
+               <!-- Spacer -->
+               <Region HBox.hgrow="ALWAYS" />
+               
+               <!-- Connection Status -->
+               <Label fx:id="connectionStatus" text="● Connected" styleClass="connection-status-connected" />
+            </items>
+            <padding>
+               <Insets bottom="8.0" left="12.0" right="12.0" top="8.0" />
+            </padding>
+         </ToolBar>
+      </VBox>
+   </top>
+   
+   <!-- Center Chat History -->
+   <center>
+      <ScrollPane fx:id="chatScrollPane" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED">
+         <content>
+            <VBox fx:id="chatHistory" spacing="8.0" styleClass="chat-container">
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+   
+   <!-- Bottom Input Area -->
+   <bottom>
+      <VBox styleClass="input-area">
+         <!-- Input Text Area -->
+         <TextArea fx:id="messageInput" 
+                   promptText="Type your message... (Shift+Enter for newline)"
+                   wrapText="true"
+                   prefRowCount="3"
+                   maxHeight="120.0"
+                   onKeyPressed="#onInputKeyPressed" />
+         
+         <!-- Button Bar -->
+         <HBox spacing="8.0" alignment="CENTER_RIGHT">
+            <children>
+               <!-- Left side buttons -->
+               <Button fx:id="clearButton" text="Clear" onAction="#onClearChat" />
+               <Button fx:id="settingsButton" text="Settings" onAction="#onShowSettings" />
+               
+               <!-- Spacer -->
+               <Region HBox.hgrow="ALWAYS" />
+               
+               <!-- Right side buttons -->
+               <Button fx:id="cancelButton" text="Cancel" onAction="#onCancelGeneration" 
+                       visible="false" managed="false" />
+               <Button fx:id="sendButton" text="Send ➤" onAction="#onSendMessage" 
+                       defaultButton="true" styleClass="send-button" />
+            </children>
+            <padding>
+               <Insets top="8.0" />
+            </padding>
+         </HBox>
+         
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+         </padding>
+      </VBox>
+   </bottom>
+   
+</BorderPane>

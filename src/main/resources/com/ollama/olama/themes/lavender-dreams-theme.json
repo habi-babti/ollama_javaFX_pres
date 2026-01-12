@@ -1,0 +1,12 @@
+{
+  "name": "Lavender Dreams",
+  "primaryColor": "#9575CD",
+  "secondaryColor": "#D1C4E9",
+  "backgroundColor": "#F3E5F5",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#7E57C2",
+  "textColor": "#4A148C",
+  "buttonColor": "#673AB7",
+  "borderColor": "#E1BEE7",
+  "hoverColor": "#512DA8"
+}

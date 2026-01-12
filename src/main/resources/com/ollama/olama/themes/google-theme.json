@@ -1,0 +1,12 @@
+{
+  "name": "Google",
+  "primaryColor": "#4285F4",
+  "secondaryColor": "#34A853",
+  "backgroundColor": "#FFFFFF",
+  "foregroundColor": "#F1F3F4",
+  "accentColor": "#EA4335",
+  "textColor": "#202124",
+  "buttonColor": "#1A73E8",
+  "borderColor": "#DADCE0",
+  "hoverColor": "#174EA6"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Microsoft",
+  "primaryColor": "#00A4EF",
+  "secondaryColor": "#737373",
+  "backgroundColor": "#FFFFFF",
+  "foregroundColor": "#F2F2F2",
+  "accentColor": "#7FBA00",
+  "textColor": "#000000",
+  "buttonColor": "#0067B8",
+  "borderColor": "#CCCCCC",
+  "hoverColor": "#005DA6"
+}

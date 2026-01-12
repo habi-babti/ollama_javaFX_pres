@@ -1,0 +1,81 @@
+/* Blue Theme */
+.root {
+    -fx-base: #f0f4ff;
+    -fx-background: #e6f2ff;
+    -fx-control-inner-background: #ffffff;
+    -fx-control-inner-background-alt: #f0f8ff;
+    -fx-accent: #1e88e5;
+    -fx-default-button: #1e88e5;
+    -fx-focus-color: #1e88e5;
+    -fx-faint-focus-color: rgba(30, 136, 229, 0.1);
+    -fx-text-fill: #0d47a1;
+    -fx-text-base-color: #0d47a1;
+}
+
+/* Chat Container */
+.chat-container {
+    -fx-background-color: #ffffff;
+}
+
+/* Toolbar */
+.toolbar {
+    -fx-background-color: #e3f2fd;
+    -fx-border-color: #bbdefb;
+}
+
+/* User Info Bar */
+.user-info-bar {
+    -fx-background-color: #e1f5fe;
+    -fx-border-color: #b3e5fc;
+}
+
+/* Message Bubbles */
+.message-bubble-user {
+    -fx-background-color: #1976d2;
+}
+
+.message-bubble-assistant {
+    -fx-background-color: #f0f8ff;
+    -fx-border-color: #e3f2fd;
+}
+
+.message-bubble-assistant .label {
+    -fx-text-fill: #0d47a1;
+}
+
+.message-bubble-system {
+    -fx-background-color: #fff8e1;
+    -fx-border-color: #ffecb3;
+}
+
+.message-bubble-system .label {
+    -fx-text-fill: #e65100;
+}
+
+.message-bubble-error {
+    -fx-background-color: #ffebee;
+    -fx-border-color: #ffcdd2;
+}
+
+.message-bubble-error .label {
+    -fx-text-fill: #c62828;
+}
+
+/* Input Area */
+.input-area {
+    -fx-background-color: #e3f2fd;
+    -fx-border-color: #bbdefb;
+}
+
+/* Connection Status */
+.connection-status-connected {
+    -fx-text-fill: #2e7d32;
+}
+
+.connection-status-disconnected {
+    -fx-text-fill: #d32f2f;
+}
+
+.connection-status-connecting {
+    -fx-text-fill: #f57c00;
+}

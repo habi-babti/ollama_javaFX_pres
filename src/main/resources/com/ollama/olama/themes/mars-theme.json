@@ -1,0 +1,12 @@
+{
+  "name": "Mars",
+  "primaryColor": "#D84315",
+  "secondaryColor": "#FF7043",
+  "backgroundColor": "#210A05",
+  "foregroundColor": "#3E1710",
+  "accentColor": "#FFAB91",
+  "textColor": "#FFCCBC",
+  "buttonColor": "#BF360C",
+  "borderColor": "#5D4037",
+  "hoverColor": "#E64A19"
+}

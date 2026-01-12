@@ -1,0 +1,12 @@
+{
+  "name": "Xiaomi",
+  "primaryColor": "#FF6900",
+  "secondaryColor": "#333333",
+  "backgroundColor": "#F5F5F5",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#FF4400",
+  "textColor": "#333333",
+  "buttonColor": "#FF6700",
+  "borderColor": "#E0E0E0",
+  "hoverColor": "#E55C00"
+}

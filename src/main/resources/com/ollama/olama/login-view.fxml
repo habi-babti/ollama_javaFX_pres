@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ollama.olama.controller.LoginController">
+   <center>
+      <VBox alignment="CENTER" maxWidth="400.0" spacing="20.0">
+         <padding>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+         </padding>
+         
+         <!-- Title -->
+         <Label text="Ollama Chat" styleClass="login-title">
+            <font>
+               <Font size="28.0" />
+            </font>
+         </Label>
+         
+         <Label text="Please sign in to continue" styleClass="login-subtitle">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         
+         <!-- Login Form -->
+         <VBox spacing="15.0">
+            <Label text="Username:" />
+            <TextField fx:id="usernameField" promptText="Enter your username" styleClass="login-field" />
+            
+            <Label text="Password:" />
+            <PasswordField fx:id="passwordField" promptText="Enter your password" styleClass="login-field" />
+            
+            <!-- Status and Loading -->
+            <HBox alignment="CENTER" spacing="10.0">
+               <ProgressIndicator fx:id="loadingIndicator" maxHeight="20.0" maxWidth="20.0" />
+               <Label fx:id="statusLabel" styleClass="status-label" />
+            </HBox>
+            
+            <!-- Buttons -->
+            <HBox alignment="CENTER" spacing="15.0">
+               <Button fx:id="loginButton" onAction="#handleLogin" text="Sign In" styleClass="primary-button" defaultButton="true">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+               <Button onAction="#handleExit" text="Exit" styleClass="secondary-button">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+            </HBox>
+         </VBox>
+         
+         <!-- Default Credentials Info -->
+         <VBox alignment="CENTER" spacing="5.0" styleClass="info-box">
+            <Label text="Default Admin Credentials:" styleClass="info-title" />
+            <Label text="Username: admin" styleClass="info-text" />
+            <Label text="Password: admin123" styleClass="info-text" />
+         </VBox>
+      </VBox>
+   </center>
+</BorderPane>

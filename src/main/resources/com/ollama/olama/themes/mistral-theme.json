@@ -1,0 +1,12 @@
+{
+  "name": "Mistral",
+  "primaryColor": "#FDBA74",
+  "secondaryColor": "#F59E0B",
+  "backgroundColor": "#FFF7ED",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#D97706",
+  "textColor": "#451A03",
+  "buttonColor": "#FB923C",
+  "borderColor": "#FED7AA",
+  "hoverColor": "#EA580C"
+}

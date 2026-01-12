@@ -1,0 +1,12 @@
+{
+  "name": "Moon",
+  "primaryColor": "#E0E0E0",
+  "secondaryColor": "#9E9E9E",
+  "backgroundColor": "#121212",
+  "foregroundColor": "#1E1E1E",
+  "accentColor": "#BBDEFB",
+  "textColor": "#EEEEEE",
+  "buttonColor": "#757575",
+  "borderColor": "#424242",
+  "hoverColor": "#BDBDBD"
+}

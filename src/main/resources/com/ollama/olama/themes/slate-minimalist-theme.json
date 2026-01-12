@@ -1,0 +1,12 @@
+{
+  "name": "Slate Minimalist",
+  "primaryColor": "#607D8B",
+  "secondaryColor": "#90A4AE",
+  "backgroundColor": "#ECEFF1",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#455A64",
+  "textColor": "#263238",
+  "buttonColor": "#546E7A",
+  "borderColor": "#CFD8DC",
+  "hoverColor": "#37474F"
+}

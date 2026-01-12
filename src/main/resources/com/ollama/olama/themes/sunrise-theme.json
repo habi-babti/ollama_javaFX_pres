@@ -1,0 +1,12 @@
+{
+  "name": "Sunrise",
+  "primaryColor": "#FF5722",
+  "secondaryColor": "#FFC107",
+  "backgroundColor": "#FFF3E0",
+  "foregroundColor": "#FFFFFF",
+  "accentColor": "#E91E63",
+  "textColor": "#BF360C",
+  "buttonColor": "#FF9800",
+  "borderColor": "#FFE0B2",
+  "hoverColor": "#F57C00"
+}

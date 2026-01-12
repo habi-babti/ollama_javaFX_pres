@@ -1,0 +1,12 @@
+{
+  "name": "GTA Vice City",
+  "primaryColor": "#FF0099",
+  "secondaryColor": "#00FFFF",
+  "backgroundColor": "#1A0515",
+  "foregroundColor": "#2B0F3A",
+  "accentColor": "#FF9900",
+  "textColor": "#E0F7FA",
+  "buttonColor": "#00FFFF",
+  "borderColor": "#FF0099",
+  "hoverColor": "#CC00CC"
+}

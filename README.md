@@ -74,7 +74,7 @@ mvn javafx:run
 1. Launch the application
 2. Default login credentials:
    - **Username**: `admin`
-   - **Password**: `admin`
+   - **Password**: `admin123`
 3. Configure Ollama URL in Settings if different from default
 4. Test connection and select a model
 

@@ -120,7 +120,7 @@ mvn javafx:run
 ### Project Structure
 ```
 src/main/java/com/ollama/olama/
-├── controller/          # JavaFX controllers
+├── controller/         # JavaFX controllers
 ├── manager/            # Business logic managers
 ├── model/              # Data models and DTOs
 ├── service/            # External service integrations
@@ -128,7 +128,7 @@ src/main/java/com/ollama/olama/
 └── util/               # Utility classes
 
 src/main/resources/com/ollama/olama/
-├── themes/             # Theme CSS and JSON files
+├── themes/            # Theme CSS and JSON files
 ├── *.fxml             # JavaFX FXML layouts
 └── styles.css         # Base application styles
 ```

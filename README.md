@@ -68,7 +68,7 @@ mvn javafx:run
 ### Ollama Setup
 1. Install and start Ollama server
 2. Default URL: `http://localhost:11434`
-3. Pull some models: `ollama pull llama2`
+3. Pull some models: `ollama pull llama2` or cloud models like `ollama pull nemotron-3-nano:30b-cloud` for non download option
 
 ### First Run
 1. Launch the application
